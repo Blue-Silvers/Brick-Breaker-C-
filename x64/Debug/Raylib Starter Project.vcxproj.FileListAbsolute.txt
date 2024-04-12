@@ -1,2 +1,2 @@
 C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Raylib-Starter-Project-main\x64\Debug\Raylib Starter Project.exe
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\x64\Debug\Raylib Starter Project.exe
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\x64\Debug\BrickBreakerProject.exe

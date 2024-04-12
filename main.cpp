@@ -9,7 +9,7 @@
 using namespace std;
 
 void Start();
-void Restart();
+void ReStart();
 void Update();
 void Draw();
 void NewStage();
