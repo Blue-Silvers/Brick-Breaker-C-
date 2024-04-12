@@ -3,7 +3,7 @@
 class ShowScreen
 {
 private:
-
+	bool mStartScren = true;
 	float mTime = 0;
 
 public:

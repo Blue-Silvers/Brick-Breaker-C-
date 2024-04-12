@@ -6,10 +6,10 @@ private:
 	float mBallSpeedX = 5;
 	float mBallSpeedY = -5;
 	float mBallSpeedMax = 10;
-	bool mBallLunched = false;
 	Color mBallColor = WHITE;
 
 public:
+	bool mBallLunched = false;
 	int mBallLife = 3;
 	int mBallRadius = 15;
 	float mBallX = 500;

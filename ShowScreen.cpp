@@ -14,12 +14,13 @@ bool ShowScreen::Update(int life)
     {
         mTime += 1;
     }
-    if (mGameOver == true || mWin == true) 
+    if (mGameOver == true || mWin == true || mStartScren == true) 
     {
         if (IsKeyPressed(KEY_ENTER))
         {
             mTime = 0; // restart
             mGameOver = false;
+            mStartScren = false;
             mGameOver = false;
             return true;
         }
@@ -55,5 +56,15 @@ void ShowScreen::Draw(Font ft, int score)
 
         Vector2 endEnterPos{ GetScreenWidth() / 3.2, GetScreenHeight() / 1.1 };
         DrawTextEx(ft, "Press ENTER for restart", endEnterPos, 50, 5, WHITE);
+    }
+
+    if (mStartScren == true)
+    {
+        DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), BLACK);
+        Vector2 endGameOverPos{ GetScreenWidth() / 6, GetScreenHeight() / 3 };
+        DrawTextEx(ft, "The Brick Breaker", endGameOverPos, 150, 5, WHITE);
+
+        Vector2 endEnterPos{ GetScreenWidth() / 3.2, GetScreenHeight() / 1.1 };
+        DrawTextEx(ft, "Press ENTER for start", endEnterPos, 50, 5, WHITE);
     }
 }

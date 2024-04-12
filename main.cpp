@@ -89,6 +89,7 @@ void ReStart()
     }
     nbBrick = row * column * brick.mBrickLife;
     ball.mBallLife = 3;
+    ball.mBallLunched = false;
     paddle.mPaddleX = 500;
 }
 
