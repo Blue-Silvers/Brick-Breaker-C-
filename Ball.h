@@ -3,7 +3,6 @@
 #include "Paddle.h"
 class Ball{
 private:
-	int mBallLife = 3;
 	float mBallSpeedX = 5;
 	float mBallSpeedY = -5;
 	float mBallSpeedMax = 10;
@@ -11,6 +10,7 @@ private:
 	Color mBallColor = WHITE;
 
 public:
+	int mBallLife = 3;
 	int mBallRadius = 15;
 	float mBallX = 500;
 	float mBallY = 500;

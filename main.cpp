@@ -3,11 +3,13 @@
 #include "Paddle.h"
 #include "Brick.h"
 #include "Bonus.h"
+#include "ShowScreen.h"
 #include <iostream>
 
 using namespace std;
 
 void Start();
+void Restart();
 void Update();
 void Draw();
 void NewStage();
@@ -21,7 +23,7 @@ Brick brick;
 int score = 0;
 
 int column = 10;
-int row = 1;
+int row = 5;
 int nbBrick = 0;
 Brick theWall[14][10];
 Bonus bonus[14][10];
@@ -30,8 +32,8 @@ Font ft;
 Vector2 textPos{ GetScreenWidth() / 5, GetScreenHeight() / 2.5 };
 Vector2 scorePos{ GetScreenWidth() / 5, 20 };
 
-bool win = false;
-bool gameOver = false;
+ShowScreen showScreen;
+
 int main() {
 
     Start();
@@ -57,6 +59,8 @@ void Start()
     scorePos.x = GetScreenWidth() / 2.3;
     scorePos.y = 5;
     score = 0;
+    column = 10;
+    row = 5;
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < column; j++)
@@ -65,6 +69,27 @@ void Start()
         }
     }
     nbBrick = row * column *brick.mBrickLife ;
+}
+
+void ReStart() 
+{
+    textPos.x = GetScreenWidth() / 5;
+    textPos.y = GetScreenHeight() / 2.5;
+    scorePos.x = GetScreenWidth() / 2.3;
+    scorePos.y = 5;
+    score = 0;
+    column = 10;
+    row = 5;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            theWall[i][j].Start(i, j);
+        }
+    }
+    nbBrick = row * column * brick.mBrickLife;
+    ball.mBallLife = 3;
+    paddle.mPaddleX = 500;
 }
 
 void Update()
@@ -104,6 +129,12 @@ void Update()
     {
         NewStage();
     }
+
+    if (showScreen.Update(ball.mBallLife) == true) 
+    {
+        ReStart();
+        //restar
+    }
 }
 
 void Draw()
@@ -129,17 +160,8 @@ void Draw()
 
     DrawTextEx(ft, TextFormat("%08i", score), scorePos, 50, 5, WHITE);
 
-    if (win == true) 
-    {
-        float timer = GetFrameTime();
-        DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), BLACK);
-        Vector2 endScorePos{ GetScreenWidth() / 6, GetScreenHeight() / 2 };
-        Vector2 endCongartsPos{ GetScreenWidth() / 4, GetScreenHeight() / 4 };
-        Vector2 endTimePos{ GetScreenWidth() / 5, GetScreenHeight() / 1.5 };
-        DrawTextEx(ft, "Congratulation", endCongartsPos, 150, 5, WHITE);
-        DrawTextEx(ft, TextFormat("Your final score : %08i", score), endScorePos, 100, 5, WHITE);
-        DrawTextEx(ft, TextFormat("Your time : %02.02f min", time), endTimePos, 100, 5, WHITE);
-    }
+    showScreen.Draw(ft, score);
+
     EndDrawing();
 }
 
@@ -148,9 +170,9 @@ void NewStage()
     score += 1000;
     ball.NewStage();
     row += 3;
-    if (row > 2) 
+    if (row > 15) 
     {
-        win = true;
+        showScreen.mWin = true;
     }
     for (int i = 0; i < row; i++)
     {

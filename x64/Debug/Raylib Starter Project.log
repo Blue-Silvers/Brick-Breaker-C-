@@ -1,95 +1,35 @@
-﻿  Ball.cpp
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(23,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(28,22): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(38,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(74,32): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(74,24): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(74,16): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(78,101): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(82,100): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(86,100): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(90,97): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(94,98): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Ball.cpp(98,94): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-  Bonus.cpp
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(12,16): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(13,16): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(43,30): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(43,22): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(43,14): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-  Brick.cpp
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(10,18): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(33,54): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(33,41): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(33,32): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(33,23): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(37,54): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(37,41): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(37,32): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(37,23): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(39,71): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(39,53): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(39,32): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(39,23): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(40,105): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(40,87): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(40,55): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(40,23): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(42,103): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(42,85): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(42,64): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(42,45): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(43,137): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(43,119): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(43,87): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(43,45): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(45,144): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(45,126): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(45,94): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(45,47): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(46,110): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(46,92): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(46,71): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(46,47): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(48,148): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(48,130): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(48,98): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(48,49): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(49,114): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(49,96): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(49,75): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Brick.cpp(49,49): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-  main.cpp
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(30,35): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(30,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(30,58): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(30,58): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(31,36): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(31,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(55,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(56,35): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(57,35): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(88,125): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(88,98): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(88,75): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(88,52): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(136,47): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(136,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(136,70): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(136,70): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(137,50): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(137,50): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(137,73): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(137,73): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(138,46): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(138,46): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(138,69): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\main.cpp(138,69): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-  Paddle.cpp
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Paddle.cpp(29,53): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Paddle.cpp(29,39): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Paddle.cpp(29,29): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Paddle.cpp(29,19): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
-  Génération de code en cours...
-C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\Bonus.cpp(59): warning C4715: 'Bonus::Time' : les chemins de contrôle ne retournent pas tous une valeur
+﻿  ShowScreen.cpp
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(35,47): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(35,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(35,70): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(35,70): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(36,50): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(36,50): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(36,75): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(36,75): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(37,46): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(37,46): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(37,69): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(37,69): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(42,47): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(42,47): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(42,72): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(42,72): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(49,47): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(49,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(49,70): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(49,70): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(50,50): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(50,50): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(50,73): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(50,73): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(51,46): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(51,46): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(51,69): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(51,69): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(56,47): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(56,47): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(56,72): warning C4838: la conversion de 'double' en 'float' requiert une conversion restrictive
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(56,72): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\ShowScreen.cpp(28): warning C4715: 'ShowScreen::Update' : les chemins de contrôle ne retournent pas tous une valeur
   Raylib Starter Project.vcxproj -> C:\Users\fury8\Downloads\Raylib-Starter-Project-main\Brick-Breaker-C++\x64\Debug\Raylib Starter Project.exe
